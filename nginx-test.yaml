@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: httpd:latest
+        image: adv4000/app1:v3
         ports:
         - containerPort: 80
 ---
